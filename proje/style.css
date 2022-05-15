@@ -1,0 +1,285 @@
+.resimSlider{
+    height: 600px;
+}
+body{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+.çizgi{
+    border: none;
+    border-top:3px solid black;
+}
+.ths{
+    margin-top: 17.3% ;
+    padding:10px 10px;
+    background: rgb(54, 54, 54);
+    text-align: center;
+}
+.hakkımda {
+    background:url(img/wor2.jpg);
+    height: 100vh;
+    width: 100%;
+}
+
+.hakkımda .hobilerim ul{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.hakkımda h2{
+    text-align: center;
+    font-size: 30px;
+    padding:20px 20px;
+    color: white;
+}
+.hakkımda .hobilerim b{
+    margin-left: 9%;
+    padding: 5px;
+    color: white;
+}
+.hakkımda .hobilerim ul{
+    margin-left: 8%;
+}
+.hakkımda .hobilerim ul li{
+   padding: 5px;
+   color: white;
+}
+.hakkımda p{
+    color: white;
+}
+img{
+    height: 50vh;
+    width: 30%;
+}
+
+/* şehrim */
+.şehrim{
+    background:url(img/web3.jpg);
+    color: white;
+}
+.şehrim h1{
+    margin-top: -50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+.şehrim p{
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-left: 10px;
+} 
+.şehrim h2{
+    text-align: left;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/* login */
+body .login{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(img/wor2.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+.login{
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+
+    text-align: center;
+}
+.login h1{
+    margin-top: 10%;
+    color: rgb(226, 219, 219);
+    font-family: serif;
+    text-transform: uppercase;
+    font-size: 100;
+}
+.login input[type="email"],
+input[type="password"]{
+    font-family: serif;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid  #0367fd;
+    padding: 14px 30px;
+    width: 300px;
+    outline: none;
+    color: rgb(241, 235, 235);
+    border-radius:24px;
+    transition: 0.25px;
+}
+
+.login input[type="email"]:focus,
+input[type="password"]:focus{
+    font-family: serif;
+    width: 280px;
+    border-color:#ffc400 ;
+}
+
+.login input[type="submit"]{
+    font-family: serif;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid  #ffc400;
+    padding: 14px 20px;
+    outline: none;
+    color: white;
+    border-radius:24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.login input[type="submit"]:hover{
+    background:#ffc400;
+}
+
+/* burası mirasımız içim*/
+.mirasımız{
+    background: url(img/wor2.jpg);
+    height: 200vh;
+    width: 100%;
+}
+.başıkm {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    margin-top: -100px;
+    margin-bottom: -20px;
+}
+
+.miras{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.miras img{
+    height: 75%;
+    width: 50%;
+    object-fit: cover;
+}
+.miras .hkhakkında h4{
+    font-size: 30px;
+    font-family:unset;
+    text-indent: 30%;
+    color: white;
+}
+
+.miras .hkhakkında p{
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+/*      miras2     */
+.miras2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.miras2 img{
+    margin-top:15px ;
+    height: 65%;
+    width: 45%;
+    object-fit: cover;
+}
+.miras2 .bhakkında p{
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.miras2 .bhakkında h4{
+    font-size: 30px;
+    font-family:unset;
+    text-indent: 40%;
+    color: white;
+}
+
+/*      miras3    */
+.miras3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.miras3 img{
+    margin-top:15px ;
+    height: 65%;
+    width: 45%;
+    margin-left: 20px;
+    object-fit: cover;
+}
+.miras3 .thakkında p{
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.miras3 .thakkında h4{
+    font-size: 30px;
+    font-family:unset;
+    text-indent: 40%;
+    color: white;
+}
+
+
+/* burası eğitim için */
+.eğitim{
+    background: url(img/web3.jpg);
+    color: white;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: -30px;
+    margin-left: -10px;
+    margin-top: -60px;
+    padding: 10px  10px;    
+}
+.eğitim h1{
+    color: white;
+    text-align: center;
+    font-size:30px;
+}
+.eğitim .geçmiş .paragraf{
+    font-size: 23px;
+    margin-left: 10px;
+}
+/* özgeçmiş */
+.ozgecmis{
+    background: url(img/web3.jpg);
+    height: 130vh;
+    width: 100%;
+    margin-left: -5px;
+    margin-top: -56px;
+    color: white;
+    font-family: sans-serif;
+}
+.ozgecmis .özgeçmiş{
+    margin-left:10px;
+}
+.ozgecmis .container h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.ozgecmis h4{
+    font-size: 25px;
+}
+
+/* iletişim */
